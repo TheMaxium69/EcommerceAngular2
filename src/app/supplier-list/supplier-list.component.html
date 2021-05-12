@@ -1,6 +1,7 @@
 <h3>Supplier list</h3>
 <div *ngIf="selectedSupplier" appSelectedBox>
-  <a href="#" (click)="close()" >x</a> You have selected {{selectedSupplier?.companyName}}
+  <a href="/suppliers" (click)="close()" >x</a> You have selected {{selectedSupplier?.companyName}}<br>
+  <p>Voulez vous le supprimé ?</p> <a (click)="deleteSupp()">Delete</a>
 </div>
 <app-supplier [supplier]="supplier" (evt)="receiveChildrenEvt($event)" *ngFor="let supplier of suppliers"></app-supplier>
 <br>

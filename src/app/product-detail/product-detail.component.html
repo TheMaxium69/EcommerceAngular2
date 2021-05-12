@@ -3,5 +3,7 @@
   <li>{{product?.description}}</li>
   <li>{{product?.promo}}</li>
   <li>{{product?.price}}</li>
+  <p>Supplier</p>
+  <li>{{product?.supplier | json}}</li>
 </ul>
 <a (click)="deleteProduct()">Delete</a>
