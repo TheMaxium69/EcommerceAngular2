@@ -9,3 +9,6 @@ label {
 button[type=submit] {
   padding:5px;
 }
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';

@@ -16,6 +16,8 @@ import {ReactiveFormsModule} from '@angular/forms';
 import { ProductAddComponent } from './product-add/product-add.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
 import {RouterModule, Routes} from '@angular/router';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ModalStackedComponent } from './modal-stacked/modal-stacked.component';
 
 const routes: Routes = [
   {path: 'products', component: ProductListComponent},
@@ -38,12 +40,14 @@ const routes: Routes = [
     SupplierAddComponent,
     ProductAddComponent,
     ProductDetailComponent,
+    ModalStackedComponent,
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     ReactiveFormsModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes),
+    NgbModule
   ],
   providers: [SupplierService],
   bootstrap: [AppComponent]
