@@ -3,5 +3,6 @@
   <a href="#" (click)="close()" >x</a> You have selected {{selectedSupplier?.companyName}}
 </div>
 <app-supplier [supplier]="supplier" (evt)="receiveChildrenEvt($event)" *ngFor="let supplier of suppliers"></app-supplier>
-
+<br>
 <a routerLink="/sadd">Ajouté un supplier</a>
+<br>

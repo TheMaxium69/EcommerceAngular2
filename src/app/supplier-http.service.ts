@@ -9,27 +9,27 @@ import {Observable} from 'rxjs';
 })
 export class SupplierHttpService {
 
-  private apiUrl = env.apiUrl + 'suppliers';
+  private apiUrlS = env.apiUrl + 'suppliers';
 
   constructor(private http: HttpClient) { }
 
   add(supplier: Supplier): Observable<Supplier>{
-    return this.http.post<Supplier>(this.apiUrl, supplier);
+    return this.http.post<Supplier>(this.apiUrlS, supplier);
   }
 
   delete(supplierId: number): Observable<any>{
-    return this.delete(supplierId);
+    return this.http.delete(this.apiUrlS + '/' + supplierId);
   }
 
   update(supplier: Supplier): Observable<Supplier>{
-    return this.http.put<Supplier>(this.apiUrl + '/' + supplier.id, supplier);
+    return this.http.put<Supplier>(this.apiUrlS + '/' + supplier.id, supplier);
   }
 
   findAll(): Observable<Supplier[]> {
-    return this.http.get<Supplier[]>(this.apiUrl);
+    return this.http.get<Supplier[]>(this.apiUrlS);
   }
 
   findOne(id: number): Observable<Supplier> {
-    return this.http.get<Supplier>(this.apiUrl + '/' + id);
+    return this.http.get<Supplier>(this.apiUrlS + '/' + id);
   }
 }
