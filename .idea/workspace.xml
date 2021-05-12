@@ -3,25 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d3ecc388-a6e6-479c-b28e-289cb41f382e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/products-manager/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/products-manager/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/products-manager/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/products-manager/main.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/products-manager/polyfills.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/products-manager/polyfills.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/products-manager/runtime.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/products-manager/runtime.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/products-manager/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/products-manager/styles.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/products-manager/vendor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/products-manager/vendor.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/menu/menu.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/menu/menu.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/menu/menu.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/menu/menu.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/product-list/product-list.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/product-list/product-list.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/supplier-list/supplier-list.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/supplier-list/supplier-list.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/environments/environment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/__ngcc_entry_points__.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/__ngcc_entry_points__.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +53,7 @@
       <updated>1620733997046</updated>
       <workItem from="1620733999830" duration="7951000" />
       <workItem from="1620764580144" duration="589000" />
-      <workItem from="1620803568310" duration="9863000" />
+      <workItem from="1620803568310" duration="14028000" />
     </task>
     <servers />
   </component>
