@@ -37,8 +37,8 @@ export class SupplierListComponent implements OnInit {
 
     const result = window.confirm ('voulez vous vraiment supprimer ' + this.selectedSupplier.companyName + ' ?');
     if(result === true){
-
-      this.pService.delete(this.selectedSupplier.id).subscribe(v => this.router.navigate(['/']));
+      this.pService.delete(this.selectedSupplier.id).subscribe(v => this.ngOnInit());
+      this.close();
     }
   }
 }
