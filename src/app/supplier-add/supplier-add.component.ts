@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {FormBuilder, FormGroup, Validators} from '@angular/forms';
 import {ProductHttpService} from '../product-http.service';
+import {SupplierHttpService} from '../supplier-http.service';
 
 @Component({
   selector: 'app-supplier-add',
@@ -12,7 +13,8 @@ export class SupplierAddComponent implements OnInit {
   form: FormGroup;
   formSubmitted = false;
 
-  constructor(private fb: FormBuilder, private productService: ProductHttpService) { }
+  constructor(private fb: FormBuilder,
+              private productService: SupplierHttpService) { }
 
   ngOnInit(): void {
     this.form = this.fb.group({

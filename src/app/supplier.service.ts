@@ -5,9 +5,9 @@ import {Supplier} from './model/Supplier';
 export class SupplierService {
 
   private suppliers = [
-    new Supplier(1,  'La ferme des 10 vaches', '12345678912', 1000),
+    /*new Supplier(1,  'La ferme des 10 vaches', '12345678912', 1000),
     new Supplier(2,  'Le moulin de pepere', '123112341234', 2500),
-    new Supplier(3,  'Motorhead', '1234123412349', 7000),
+    new Supplier(3,  'Motorhead', '1234123412349', 7000),*/
   ];
 
   constructor() { }

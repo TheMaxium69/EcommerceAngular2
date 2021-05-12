@@ -20,7 +20,9 @@ import {RouterModule, Routes} from '@angular/router';
 const routes: Routes = [
   {path: 'products', component: ProductListComponent},
   {path: 'products/:id', component: ProductDetailComponent},
-  {path: 'add', component: ProductAddComponent}
+  {path: 'add', component: ProductAddComponent},
+  {path: 'suppliers', component: SupplierListComponent},
+  {path: 'sadd', component: SupplierAddComponent}
 ];
 
 @NgModule({
