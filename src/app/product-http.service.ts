@@ -18,7 +18,7 @@ export class ProductHttpService {
   }
 
   delete(productId: number): Observable<any>{
-    return this.delete(productId);
+    return this.http.delete(this.apiUrl + '/' + productId);
   }
 
   update(product: Product): Observable<Product>{
