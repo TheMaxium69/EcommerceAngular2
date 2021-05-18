@@ -30,7 +30,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../EcommerceAngular" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../EvalAngular" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -54,6 +54,8 @@
       <workItem from="1620829039417" duration="835000" />
       <workItem from="1620829897090" duration="292000" />
       <workItem from="1620830210357" duration="521000" />
+      <workItem from="1621207001799" duration="71000" />
+      <workItem from="1621235375847" duration="14165000" />
     </task>
     <servers />
   </component>
